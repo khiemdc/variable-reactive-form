@@ -1,0 +1,4 @@
+<form [formGroup]="dynamicForm">
+  <input type="text" [formControlName]="fieldName">
+</form>
+<pre>{{ dynamicForm.value | json }}</pre>
